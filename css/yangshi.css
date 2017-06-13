@@ -1,0 +1,370 @@
+/*body{
+	background:red;
+}*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#header,
+#nav,
+#banner,
+#news1,
+#news2,
+#footer {
+	margin: 0 auto;
+	width: 999px;
+}
+
+
+/*头部*/
+
+#header {
+	height: 100px;
+	width: 999px;
+	background: white;
+}
+
+#header .logo {
+	width: 250px;
+	height: 60px;
+	background: white;
+	float: left;
+	padding-top: 40px;
+	padding-left: 18px;
+}
+
+#header .search {
+	width: 247px;
+	height: 60px;
+	/*background:red;*/
+	float: right;
+	padding-top: 40px;
+}
+
+#header .search .content {
+	width: 234px;
+	height: 27px;
+	background: #f1f1f1;
+}
+
+#header .search .sw {
+	float: left;
+	width: 204px;
+	height: 23px;
+	text-indent: 16px;
+	border: 2px solid #f2f2f2;
+	background:  #f1f1f1;
+}
+
+#header .search .tu {
+	float: right;
+	;
+	margin: 0;
+	padding: 0px;
+	border: 0px;
+	width: 26px;
+	height: 27px;
+	background: url(../images/search.png);
+}
+
+
+/*导航*/
+
+#nav {
+	height: 60px;
+	width: 972px;
+	background: black;
+	margin: 0 auto;
+	padding-left: 27px;
+}
+
+#nav div {
+	text-align: center;
+	float: left;
+	width: 120px;
+	line-height: 60px;
+	font-size: 14px;
+	border-right: 1px solid #494949;
+}
+
+#nav .last {
+	border-right: 0px;
+}
+
+#nav div a {
+	color: white;
+	text-decoration: none;
+}
+
+
+/*横幅*/
+
+#banner {
+	height: 465px;
+	width: 999px;
+	background: green;
+}
+
+
+/*新闻1*/
+
+#news1 {
+	height: 240px;
+	width: 999px;
+	/*background: yellow;*/
+}
+
+#news1 #section1 {
+	width: 480px;
+	height: 240px;
+	float: left;
+	/*background:gold;*/
+	padding-left: 20px;
+	margin-top: 37px;
+}
+
+#news1 #section1 .xinwen {
+	font-size: 18px;
+	height: 18px;
+}
+
+#news1 #section1 .xiaoxinwen {
+	margin: 29px 27px 0px 0px;
+	font-size: 12px;
+}
+
+#news1 #section1 .xiaoxinwen ul {
+	list-style-position: inside;
+}
+
+#news1 #section1 .xiaoxinwen ul li a {
+	line-height: 24px;
+	color: black;
+	text-decoration: none;
+}
+
+#news1 #section1 .xiaoxinwen ul li .time {
+	float: right;
+	color: #939393;
+}
+
+#news1 .section2 {
+	width: 214px;
+	height: 204px;
+	float: left;
+	background: #f1f1f1;
+	padding-top: 36px;
+	padding-left: 26px;
+}
+
+#news1 .section2 .wolong {
+	width: 136px;
+	height: 22px;
+	text-align: left;
+	color: black;
+	font-size: 16px;
+}
+
+#news1 .section2 .cl {
+	width: 128px;
+	font-size: 13px;
+	padding-top: 35px;
+	text-align: left;
+	line-height: 25px;
+}
+
+#news1 .section2 .cw {
+	width: 197px;
+	font-size: 13px;
+	padding-top: 26px;
+	text-align: left;
+	line-height: 25px;
+	color: #939393;
+}
+
+#news1 .section3 {
+	width: 233px;
+	height: 204px;
+	float: left;
+	/*background:blue;*/
+	padding-top: 36px;
+	padding-left: 26px;
+	background-color: #fbfbfb;
+	background: url(../images/flower.png) no-repeat right bottom;
+}
+
+#news1 .section3 .hr {
+	height: 44px;
+}
+
+#news1 .section3 .hra {
+	font-size: 12px;
+	width: 183px;
+	line-height: 24px;
+}
+
+#news1 .section3 input {
+	width: 66px;
+	height: 20px;
+	background: url(../images/more.png);
+	margin-top: 50px;
+}
+
+
+/*新闻2*/
+
+#news2 {
+	height: 306px;
+	width: 979px;
+	/*background: red;*/
+	padding-top: 30px;
+	padding-left: 20px;
+	/*margin:0px auto;*/
+}
+
+#news2 .wolo {
+	/*text-align: left;*/
+	font-size: 18px;
+	width: 72px;
+	height: 18px;
+	line-height: 6px;
+}
+
+#news2 .info {
+	padding-top: 18px;
+}
+
+#news2 .info ul li {
+	list-style-type: none;
+	float: left;
+	/*width:211px;*/
+	padding: 0px 20px;
+}
+
+#news2 .info ul .one {
+	padding-left: 0px;
+}
+
+#news2 .info ul .two {
+	padding-right: 0px;
+}
+
+#news2 .info ul li .info1 {
+	width: 210px;
+}
+
+#news2 .info ul li .info2 {
+	padding-top: 17px;
+	width: 210px;
+	line-height: 23px;
+	font-size: 12px;
+}
+
+#news2 .info ul li a {
+	color: black;
+	text-decoration: none;
+}
+
+
+/*底部*/
+
+#footer {
+	/*margin:0px auto;*/
+	height: 330px;
+	width: 999px;
+	background: #e5e5e5;
+}
+
+#footer .list {
+	padding-top: 28px;
+}
+
+#footer .list .smallbox1 {
+	width: 453px;
+	height: 250px;
+	/*background:red;*/
+	float: left;
+}
+
+#footer .list h3 {
+	font-size: 17px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #c2c2c2;
+	/*text-decoration:none;*/
+	text-indent: 13px;
+	/*line-height:28px;*/
+}
+
+#footer .list .smallbox1{
+	margin-left:20px;}
+#footer .list .smallbox1 ul {
+	float: left;
+}
+
+#footer .list ul li {
+	list-style: none inside url(../images/biaoqian.png);
+}
+
+#footer .list .smallbox1 .two {
+	padding: 0px 70px;
+}
+
+#footer .list ul li a {
+	text-decoration: none;
+	font-size: 11px;
+	color: black;
+	line-height: 24px;
+}
+
+#footer .list .smallbox2 {
+	width: 154px;
+	height: 250px;
+	float: left;
+	margin: 0 50px;
+}
+
+
+/*background:red;}*/
+
+#footer .list .smallbox3 {
+	width: 255px;
+	height: 250px;
+	float: left;
+}
+
+
+/*background:url(../images/china.png) no-repeat;*/
+
+
+/*background:red;*/
+
+#footer .last {
+	height: 64px;
+	width: 957px;
+	background: white;
+	float: left;
+	padding-top: 21px;
+	padding-left: 21px;
+	padding-right: 21px;
+	font-size: 10px;
+	
+}
+
+#footer .last a {
+	text-decoration: none;
+	color: black;
+}
+
+#footer .last .over1 {
+	float: left;
+}
+
+#footer .last .over2 {
+	float: right;
+}
+
+#footer .last .over2 img {
+	vertical-align: top;
+}
